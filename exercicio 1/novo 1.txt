@@ -1,0 +1,23 @@
+	<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<title> loja de tenis legal</title>
+			<meta charset="UTF-8">
+			<meta name="author" content="diogo e maria">
+			<meta name="description" content="exercicio 1">
+			<meta name="keywords" content="html, css, js, design, web">
+			<link rel="shortcut icon" href="img/icone.png">
+			
+			<style type="text/css">
+				p{
+					text-align: justify;
+					text-indent: 50px;
+					line-height: 2;
+				}
+			</style>
+			
+			<link rel="stylesheet" type="text/css" href="css/estilos.css">
+			
+		</head>
+	 
+	 <body class="fundo">

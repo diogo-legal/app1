@@ -1,0 +1,77 @@
+@charset "utf-8"
+*{
+	font-family:verdana,arial,times new roman;	
+}
+html{
+	scroll-behavior: smooth;
+}
+.fundo{
+	background-color: rgb( 220, 200, 102); 
+}
+.txt {
+	font-size: 17px;
+}
+.txt2 {
+	font-size: 22px;
+	text-align: center;
+}
+/*topo & inicio*/
+.topo{
+	background-color: white;
+}
+.inicio{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-shadow: 2px 2px 2px gray, 3px 3px 2px black;
+	text-align: center;
+}
+.iniciop {
+	font-size: 18px;
+}
+.navegar {
+	display: flex;
+}
+li {
+	margin-right: 25px;
+}
+
+/*sobre*/
+.sobre{
+	font-family:"Papyrus MT", fantasy;
+	text-shadow: 2px 2px 2px gray, 3px 3px 2px black;
+	text-align: center;
+}
+
+/*galeria*/
+.galeria {
+	font-family:"Curlz MT", "Curlz",cursive;
+	text-align: center;
+}
+.imgs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:100%;
+}
+table{
+		border: 2px solid silver;
+		width: 100%;
+		border-collapse: collapse;
+}	
+th, td{
+	padding: 10px;
+	border: 1px solid silver;
+}
+th{
+	background-color: #000;
+	color: #ffff;
+}
+tr:nth-child(even){ /*linhas pares*/
+	background-color: silver;
+}
+tr:nth-child(odd){ /*linhas impares*/
+	background-color: rgba(255,255,255,0.5);
+}
+tr:hover{
+	background-color: gray;
+}
+
